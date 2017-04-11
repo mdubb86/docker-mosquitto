@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y \
   cron
 
 ENTRYPOINT ["/init"]
-EXPOSE 1883 9001
+EXPOSE 8883 9001
 VOLUME /mosquitto /etc/letsencrypt
 
 # Install services

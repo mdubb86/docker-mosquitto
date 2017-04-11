@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'icecast exited... restarting'
+echo 'mosquitto exited... restarting'

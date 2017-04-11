@@ -1,3 +1,0 @@
-#!/usr/bin/with-contenv /bin/bash
-exec tail -F /mosquitto/mosquitto.log
-
