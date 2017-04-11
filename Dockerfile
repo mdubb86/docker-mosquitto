@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
 
 ENTRYPOINT ["/init"]
 EXPOSE 1883 9001
-VOLUME /mosquitto/data /mosquitto/log /mosquitto/conf /etc/letsencrypt
+VOLUME /mosquitto /etc/letsencrypt
 
 # Install services
 COPY services /etc/services.d

@@ -1,4 +1,4 @@
 #!/usr/bin/with-contenv /bin/bash
 echo 'Starting mosquitto'
-exec mosquitto
+exec mosquitto -c /mosquitto/mosquitto.conf
 
