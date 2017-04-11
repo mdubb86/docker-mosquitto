@@ -1,0 +1,3 @@
+#!/usr/bin/with-contenv /bin/bash
+exec tail -F /var/log/icecast2/error.log
+
